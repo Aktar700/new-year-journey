@@ -1,4 +1,70 @@
 /* common sheared style */
 body{
     background-color: #FFF;
+    width: 1600px;
+    height: 7335px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);   
+
+
+}
+/* header styles */
+.head{
+    background-image: url('../images/Banner\ Image.png'); 
+    padding: 50px 140px; 
+    border-radius: 16px;
+    display: flex;  
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    font-family: Merriweather; 
+    font-style: normal;
+    text-align: center;
+    color: #FFF;
+    
+ 
+}
+.new{
+    padding: 0px; 
+  font-size: 32px;
+   font-weight: 400;
+    line-height: normal; 
+}
+.happy{
+ padding:0px 230px; 
+font-size: 72px;
+font-weight: 900;
+/* text-align: center; */
+word-wrap: break-word; 
+/* line-height: 95px; 131.944% */
+}
+/* main part style */
+.rst{
+    padding: 120px 398px 100px;
+
+}
+.Off{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.holiday{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.catagory{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
